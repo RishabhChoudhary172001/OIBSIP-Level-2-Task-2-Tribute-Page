@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-heading {
+    align-items: center;
+    background-color: black;
+    height: 10vh;
+}
+
+.main-heading h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', serif;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+
+.main-heading h3 {
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Open Sans', serif;
+}
+
+.intro {
+    height: 90vh;
+    width: auto;
+    text-align: center;
+    padding: 35px;
+    background-color: black;
+    overflow: hidden;
+}
+
+.intro img {
+    max-width: 80%;
+}
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    color: white;
+    border-top: 1px solid #bcbcbc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.info {
+    height: 115vh;
+    background-color: black;
+    color: white;
+}
+
+
+.info h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans', serif;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-top: 75px;
+}
+
+p {
+    padding-top: 20px;
+    text-align: center;
+    padding-right: 200px;
+    padding-left: 200px;
+    font-family: 'PT Sans', serif;
+    font-size: 19px;
+}
+
+
+#Quote_T {
+    padding-top: 30px;
+
+}
+
+#Quote {
+    text-align: center;
+    font-family: 'PT Mono';
+}
+
+@media screen and (max-width: 840px) {
+    .intro {
+        height: 30vh;
+    }
+
+    p {
+        padding-right: 20px;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+
+    .info {
+        height: 260vh;
+    }
+}
